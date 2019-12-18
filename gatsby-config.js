@@ -1,21 +1,22 @@
 require(`dotenv`).config({
   path: `.env`,
 })
-
 module.exports = {
   siteMetadata: {
+    siteTitle: `AS207716`,
     siteTitleAlt: `AS207716 - DCC TECH LTD`,
+    siteHeadline: `AS207716 - DCC Network by dcc.cat`,
+    siteUrl: `https://as207716.com`,
+    siteDescription: `Fast, Easy and Reliable Worldwide Network.`,
+    siteLanguage: `en`,
+    siteImage: `https://cdn.jsdelivr.net/gh/S8Cloud/AS207716@latest/images/2.jpg`,
+    author: `DCC`,
+    basePath,
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-cara`,
       options: {},
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: process.env.UA-104610329-5,
-      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
@@ -36,7 +37,6 @@ module.exports = {
         ],
       },
     },
-    `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
   ],
 }
