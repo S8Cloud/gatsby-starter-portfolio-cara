@@ -11,7 +11,6 @@ module.exports = {
     siteLanguage: `en`,
     siteImage: `https://cdn.jsdelivr.net/gh/S8Cloud/AS207716@latest/images/2.jpg`,
     author: `DCC`,
-    basePath,
   },
   plugins: [
     {
