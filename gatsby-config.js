@@ -25,7 +25,7 @@ module.exports = {
         description: `DCC TECH LTD Network, AS207716`,
         start_url: `/`,
         background_color: `#141821`,
-        theme_color: `#f6ad55`,
+        theme_color: `#6872e5`,
         display: `standalone`,
         icons: [
           {
