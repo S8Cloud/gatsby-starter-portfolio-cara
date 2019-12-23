@@ -9,7 +9,7 @@ module.exports = {
     siteUrl: `https://as207716.com`,
     siteDescription: `Fast, Easy and Reliable Worldwide Network.`,
     siteLanguage: `en`,
-    siteImage: `/2.jpg`,
+    siteImage: `/favicon.png`,
     author: `@cloudatcost`,
   },
   plugins: [

@@ -48,14 +48,13 @@ const SEO = ({ title, description, pathname, image, children }: Props) => {
       <meta property="og:image" content={seo.image} />
       <meta property="og:type" content="website" />
       <meta property="og:image:alt" content={seo.description} />
-      <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={seo.title} />
       <meta name="twitter:url" content={seo.url} />
       <meta name="twitter:description" content={seo.description} />
       <meta name="twitter:image" content={seo.image} />
       <meta name="twitter:image:alt" content={seo.description} />
       <meta name="twitter:creator" content={author} />
-      <link rel="icon" type="image/png" sizes="256x256" href="/favicon.png" />
+      <link rel="icon" type="image/png" sizes="512x512" href="/favicon.png" />
       {children}
     </Helmet>
   )
